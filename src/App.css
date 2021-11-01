@@ -7,6 +7,69 @@
   pointer-events: none;
 }
 
+body{
+  background-image: linear-gradient( rgb(129, 156, 156) 1rem, rgb(246, 212, 251) 10rem, pink, white 55rem);
+  height: 100vh;
+}
+.main{
+  margin: 0px 50px 0px 50px;
+}
+
+.inputField{
+  border: 2px solid black;
+  border-radius: 20px;
+  width:200px;
+  height:30px;
+}
+.inputField:hover{
+  border-color: blue;
+}
+button{
+  width:200px;
+  height:50px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color:#61dafb;
+}
+button:hover{
+  background-color: aqua;
+  cursor: pointer;
+}
+.btn{
+  width:200px;
+  height:50px;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color:#61dafb;
+  position: relative;
+  top:300px;
+}
+.container{
+  border: 1px solid black;
+  position: relative;
+  top: 118px;
+  background-color: #61dafb;
+}
+.placeInput{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 1px solid black;
+  position: relative;
+  top: 100px;
+  background-color: #61dafb;
+  
+}
+.flexBox{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: palevioletred;
+  height:40px;
+  padding:20px 10px 5px 10px;
+  margin:10px 10px 10px 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
